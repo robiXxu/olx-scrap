@@ -7,6 +7,7 @@
   "author": "Schiriac Robert <schiriac.robert@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.6.1",
     "lodash": "^4.17.11",
     "puppeteer": "^1.11.0"
   }

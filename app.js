@@ -40,7 +40,7 @@ const { parallelLimit } = require('async');
     await page.goto(uri, navigationOptions);
 
     // Load phone number
-    await page.click('div.offerbody div.link-phone')
+    await page.click('div.offerbody div.link-phone');
     await page.$$eval('div.offerbody div.link-phone strong.xx-large', el => el);
 
     const content = await page.evaluate(() => {

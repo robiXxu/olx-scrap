@@ -1,7 +1,7 @@
 {
-  "name": "olx-scrap",
+  "name": "olx-scrap-puppeteer",
   "version": "1.0.0",
-  "description": "A nodejs scrapper for olx.ro made to experiment with puppeteer, forking, etc..",
+  "description": "A nodejs scrapper for olx.ro made to experiment with puppeteer",
   "main": "app.js",
   "repository": "git@github.com:robiXxu/olx-scrap.git",
   "author": "Schiriac Robert <schiriac.robert@gmail.com>",
